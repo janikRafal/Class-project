@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" href="./img/icon.ico" />
+    <title>Planeta Ziemia</title>
+  </head>
+  <body>
+    <header class="mb-5">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="./index.html"
+          ><img
+            class="ms-4"
+            src="./img/logo.png"
+            alt="logo"
+            width="40"
+            height="40"
+        /></a>
+        <button
+          class="navbar-toggler me-4"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link ms-3 active" href="./index.html"
+                >Strona startowa</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle ms-3"
+                href="#"
+                id="navbarDropdownMenuLink1"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Wyróżnione miejsca
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink1"
+              >
+                <a class="dropdown-item" href="./iguazu.html"
+                  >Wodospady Iguazu</a
+                >
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./canyon.html">Wielki Kanion</a>
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./reef.html"
+                  >Wielka Rafa Koralowa</a
+                >
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle ms-3"
+                href="#"
+                id="navbarDropdownMenuLink2"
+                data-bs-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Ciekawe miejsca
+              </a>
+              <div
+                class="dropdown-menu"
+                aria-labelledby="navbarDropdownMenuLink2"
+              >
+                <a class="dropdown-item" href="./galapagos.html"
+                  >Wyspy Galapagos</a
+                >
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./serengeti.html"
+                  >Park Narodowy Serengeti</a
+                >
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./fuji.html">Góra Fudżi</a>
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./china_wall.html"
+                  >Wielki Mur Chiński</a
+                >
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./machu_picchu.html"
+                  >Machu Picchu</a
+                >
+                <div class="dropdown-divider"></div>
+
+                <a class="dropdown-item" href="./petra.html">Petra</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="./gallery.html">Galeria</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="./form.html">Zapisz się</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="d-flex justify-content-center align-items-center title">
+        <h1 class="text-center text-white display-1">PLANETA ZIEMIA</h1>
+      </div>
+    </header>
+    <main class="container">
+      <section>
+        <h2 class="h1 mb-5">O stronie</h2>
+        <p>
+          "Planeta Ziemia" jest portalem stworzonym na potrzeby projektu
+          zaliczeniowego, jak i również z fascynacji otaczającym nas pięknem
+          przyrody. Nasza planeta oferuje nam niezapomniane widoki i satysfakcję
+          z ich oglądania, które z powodu marazmu dni powszednych łatwo jest
+          przegapić.
+        </p>
+        <p>
+          Jeżeli lubisz patrzeć na cuda, które natura i ludzie tworzyli przez
+          lata warto zatrzymać sie tutaj na kilka chwil. Polecam również
+          zapisanie się do formularza, aby otrzymywać cotygodniowe ciekawostki
+          na temat naszej planety.
+        </p>
+        <p>Miłego oglądania :)</p>
+      </section>
+      <hr class="featurette-divider mt-5 mb-5" />
+      <section>
+        <h2 class="h1 mb-5">Wyróżnione</h2>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+            ></li>
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+            ></li>
+            <li
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+            ></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="item-one carousel-item active">
+              <div class="carousel-caption d-none d-md-block">
+                <a class="btn btn-primary" href="./iguazu.html" role="button"
+                  >Wodospady Iguazu (zobacz)</a
+                >
+              </div>
+            </div>
+            <div class="item-two carousel-item">
+              <div class="carousel-caption d-none d-md-block">
+                <a class="btn btn-primary" href="./iguazu.html" role="button"
+                  >Wielki Kanion (zobacz)</a
+                >
+              </div>
+            </div>
+            <div class="item-three carousel-item bg-dark">
+              <div class="carousel-caption d-none d-md-block">
+                <a class="btn btn-primary" href="./reef.html" role="button"
+                  >Wielka Rafa Koralowa (zobacz)</a
+                >
+              </div>
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Poprzedni</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-bs-slide="next"
+          >
+            <span class="sr-only">Następny</span>
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+      <hr class="featurette-divider mt-5 mb-5" />
+      <section>
+        <h2 class="h1 mb-5">Ciekawe miejsca</h2>
+        <div class="row">
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./galapagos.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/galapagos1.jpg"
+                  alt="Wyspy Galapagos"
+              /></a>
+              <figcaption class="text-center mt-2 h5">
+                Wyspy Galapagos
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./serengeti.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/serengeti1.jpg"
+                  alt="Park Narodowy Serengeti"
+              /></a>
+              <figcaption class="text-center mt-2 h5">
+                Park Narodowy Serengeti
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./fuji.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/fuji1.jpg"
+                  alt="Góra Fudżi"
+              /></a>
+              <figcaption class="text-center mt-2 h5">Góra Fudżi</figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./china_wall.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/china_wall1.jpg"
+                  alt="Wielki Mur Chiński"
+              /></a>
+              <figcaption class="text-center mt-2 h5">
+                Wielki Mur Chiński
+              </figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./machu_picchu.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/machu_picchu1.jpg"
+                  alt="Machu Picchu"
+              /></a>
+              <figcaption class="text-center mt-2 h5">Machu Picchu</figcaption>
+            </figure>
+          </div>
+          <div
+            class="col-md-6 col-lg-4 d-flex justify-content-center align-items-center"
+          >
+            <figure>
+              <a href="./petra.html"
+                ><img
+                  class="img-fluid rounded thumbnails"
+                  src="./img/petra1.jpg"
+                  alt="Petra"
+              /></a>
+              <figcaption class="text-center mt-2 h5">Petra</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <hr class="featurette-divider mt-5 mb-5" />
+    </main>
+    <footer class="bg-dark text-center text-lg-start text-white">
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+        © 2022 Copyright:
+        <a
+          class="text-white"
+          href="https://www.linkedin.com/in/rafal-janik"
+          target="_blank"
+          >Rafał Janik</a
+        >
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
